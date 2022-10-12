@@ -1,0 +1,53 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+./.npmrc
+
+# Sonar
+reports/dependency-check/*
+!reports/dependency-check/index
+.scannerwork/
+
+# Dependency directories
+node_modules/
+
+# Build directory
+/dist/
+/tools/
+/out/
+# Local configurations
+local.json
+integration.json
+pm2.config.json
+
+# Test output
+.nyc_output/
+coverage/
+out/
+
+# IDEs
+/.idea/
+/nbproject/
+.vscode/
+.idea
+
+# Rpm
+artifacts/
+
+#Profiler
+processed.txt
+*.log
+
+#MessageBroker
+messagebroker-config.yml
+
+# Locust / python runtime files
+*.pyc
+
+#Tools
+build/rabbitmq/dlq/*.json
+build/stats/**/*.json
+build/**/*.csv
